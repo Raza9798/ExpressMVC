@@ -1,0 +1,40 @@
+{
+  "name": "ExpressMVC",
+  "version": "1.0.0",
+  "description": "Node Framework for RestApi",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon public/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Raza9798",
+  "license": "MIT",
+  "imports": {
+    "#app/*": "./app/*",
+    "#models/*": "./models",
+    "#providers/*": "./app/Providers/*",
+    "#config/*": "./config/*",
+    "#routes/*": "./routes/*"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-formidable": "^1.2.0",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.30.1",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.10.3",
+    "nodemon": "^3.1.4",
+    "path": "^0.12.7",
+    "sequelize": "^6.37.3",
+    "winston": "^3.13.1"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "sequelize-cli": "^6.6.2"
+  }
+}

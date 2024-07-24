@@ -1,0 +1,13 @@
+{
+    "default": "local",
+    "disks": {
+        "local": {
+            "driver": "local",
+            "path": "storage"
+        },
+        "public": {
+            "driver": "local",
+            "path": "public"
+        }
+    }
+}
